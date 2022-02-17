@@ -45,7 +45,6 @@ class ContainerConta extends StatelessWidget {
                 fontSize: 28
               ),
               ),
-              const SizedBox(height: 41,)
             ],
           ),
         ),
