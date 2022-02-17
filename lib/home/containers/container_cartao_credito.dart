@@ -61,6 +61,7 @@ class ContainerCartaoCredito extends StatelessWidget {
                   ),
                   ),
                   const SizedBox(width: 10,),
+                  
                   Text("R\$ 1.205,10",
                   style: TextStyle(
                     color: Color(0xFF1F7F45)
