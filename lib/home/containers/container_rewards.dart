@@ -6,7 +6,7 @@ class ContainerRewards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 12),
+      padding: const EdgeInsets.only(top: 12, bottom: 34),
       child: Container(
         height: 165,
         width: 390,
