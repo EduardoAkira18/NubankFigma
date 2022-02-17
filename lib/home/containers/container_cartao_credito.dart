@@ -33,14 +33,13 @@ class ContainerCartaoCredito extends StatelessWidget {
                       "Cartão de crédito",
                       style: TextStyle(
                         color: Colors.white,
-                        fontWeight: FontWeight.bold
                       ),
                     ),
                   ],
                 ),
               ),              
               const Text(
-                "Fatura Atual",
+                "Fatura atual",
                 style: TextStyle(color: Color(0xFF9E9C9C)),
               ),
               const Padding(
@@ -61,7 +60,7 @@ class ContainerCartaoCredito extends StatelessWidget {
                   ),
                   ),
                   const SizedBox(width: 10,),
-                  
+
                   Text("R\$ 1.205,10",
                   style: TextStyle(
                     color: Color(0xFF1F7F45)
