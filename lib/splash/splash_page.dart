@@ -12,6 +12,22 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
+
+  void initializeSplash() async{
+    await Future.delayed(Duration(seconds: 4));
+    Navigator.pushReplacementNamed(context, "/home");
+    // Quando uma função não é instantanea trabalhamos com await e async.
+  }
+
+  @override
+  void initState() {
+    initializeSplash();
+    super.initState();
+    // Função que vai ser chamada automaticamente quando essa tela for chamada
+  }
+
+
+
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
