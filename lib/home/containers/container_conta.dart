@@ -20,7 +20,7 @@ class ContainerConta extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 40, bottom: 14),
+                padding: const EdgeInsets.only(top: 30, bottom: 14),
                 child: Row(
                   children: [
                     Image.asset("images/cartao.png"),
